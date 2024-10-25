@@ -8,7 +8,7 @@ function validateLogin() {
     if (username === 'Entri Elevate' && password === 'admin123') 
     {
         alert('Login successful!');
-        window.location.href = 'home.html';
+         window.open('https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en')
         return true;
     
     } 
